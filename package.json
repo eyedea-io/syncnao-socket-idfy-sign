@@ -1,11 +1,17 @@
 {
   "dependencies": {
     "@idfy/legacy": "^0.0.2",
-    "axios": "^0.16.2",
+    "axios": "^0.21.3",
     "syncano-server": "beta",
-    "syncano-validate": "^0.5.1"
+    "syncano-validate": "^0.5.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/node": "^8.0.33"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }

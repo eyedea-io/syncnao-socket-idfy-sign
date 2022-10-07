@@ -8,6 +8,11 @@
   dependencies:
     axios "0.16.2"
 
+"@snyk/protect@^1.1025.0":
+  version "1.1025.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1025.0.tgz#85ece8c6ab49cd9409fd8082f6d21f6c613d479d"
+  integrity sha512-RK9tY2Aqujv5l9e/5nE4yiTilk8vxyB99VtJJ/6p9TZYhddCVQUUv+PNenhVVO3jkSD8/3gLWbPakIvQsFKynA==
+
 "@types/node@^8.0.33":
   version "8.0.33"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.33.tgz#1126e94374014e54478092830704f6ea89df04cd"
@@ -24,12 +29,19 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-axios@0.16.2, axios@^0.16.2:
+axios@0.16.2:
   version "0.16.2"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
   dependencies:
     follow-redirects "^1.2.3"
     is-buffer "^1.1.5"
+
+axios@^0.21.3:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -485,6 +497,11 @@ escape-string-regexp@^1.0.2:
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
+
+follow-redirects@^1.14.0:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 follow-redirects@^1.2.3:
   version "1.2.5"
